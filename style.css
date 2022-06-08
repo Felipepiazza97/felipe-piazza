@@ -30,6 +30,7 @@ nav {
 }
 
 .footer {
+    background: radial-gradient(red,yellow,black);
     display:flex;
     width:120;
     flex-wrap: wrap;
@@ -123,7 +124,7 @@ header {
 .tablita {
 
     color:brown;
-    background-color:black;
+    background: radial-gradient(red,black,green);
    
     
 }
@@ -229,6 +230,13 @@ th {
     background-color:black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
+    font-style:italic ;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+.nuevo{
+  
     font-style:italic ;
     font-weight: bold;
     text-align: center;
