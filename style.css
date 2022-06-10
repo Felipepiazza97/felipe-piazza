@@ -189,21 +189,10 @@ td{
    padding: 20px;
    
 }
-#servicios{
-    display:grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    column-gap: 10px;
-    row-gap: 10px;
-    justify-items: center;
-    color: orangered;
-    border-right: dotted 4px blue;
-   border-top: dotted 4px blue;
-   border-bottom: dotted 4px blue;
-   border-left: dotted 4px blue;
+
    
 
-}
+
 
 th {
     color: cadetblue;
@@ -235,11 +224,5 @@ th {
     text-align: center;
     padding: 20px;
 }
-.nuevo{
-  
-    font-style:italic ;
-    font-weight: bold;
-    text-align: center;
-    padding: 20px;
-}
+
 
