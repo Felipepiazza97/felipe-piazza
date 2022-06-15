@@ -1,7 +1,9 @@
 /*comentario css*/
 
 
-
+body {
+    background-color: black;
+}
 
 .Aventura {
     color: goldenrod;
