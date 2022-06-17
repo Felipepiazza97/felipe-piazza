@@ -1,230 +1,281 @@
 /*comentario css*/
 
 
-body {
-    background-color: black;
+.Aventura {
+  color: goldenrod;
+  font-family: monospace;
+  text-align: center;
+  padding: 20px;
 }
 
-.Aventura {
-    color: goldenrod;
-    font-family: monospace;
-    text-align:center;
-    padding: 20px;
+.parra {
+  color: goldenrod;
+  text-align: center;
+}
 
-     
+.button{
+  text-align: center;
+}
+
+.descargar {
+  display:flex;
+  justify-content:space-around;
+}
+.descargarr {
+  display:flex;
+  justify-content:space-between;
+}
+.facebook {
+  display:flex;
+  justify-content:space-between;
 }
 .razas {
-    display:flex;
-
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
+
 header,
 footer,
 aside,
 section,
 nav {
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 header,
-
 nav {
-    background-color: darkolivegreen;
+  background-color: darkolivegreen;
 }
 
 .footer {
-    background: radial-gradient(red,yellow,black);
-    display:flex;
-    width:120;
-    flex-wrap: wrap;
+  background: radial-gradient(red, yellow, black);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 120;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
 
-    
-    
-    }
-    .footerr {
+.foot {
+  background: radial-gradient(red, yellow, black);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 120;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
 
-        width:50%;
-        text-align: center;
-        
-        }
-    .fut {
+.footerr {
+  width: 50%;
+  text-align: center;
+}
 
-        width:90%;
-        
-        }
-        .futt {
+.fut {
+  width: 90%;
+}
 
-            width:90%;
-        }
+.futt {
+  width: 90%;
+}
+
 header {
-    padding: 40px;
-   
+  padding: 40px;
 }
 
 .padre-flex {
-    display:flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: red;
-    font-family: monospace;
-
-    padding: 20px; 
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: red;
+  font-family: monospace;
+  padding: 20px;
 }
 
 .padre-flexx {
-    display:flex;
- 
-    flex-flow: row wrap;
-    color: black;
-    font-family: monospace;
-    text-align:center;
-    padding: 20px; 
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  color: black;
+  font-family: monospace;
+  text-align: center;
+  padding: 20px;
 }
-
 
 .Juego-Online-2d {
-    display:flex;
-    flex-flow: row wrap;
-    flex-wrap: wrap;
-    align-items: stretch;
-    flex-direction: column;
-    color: goldenrod;
-    font-family: monospace;
-    text-align:center;
-    border-right: dotted 4px blue;
-    border-top: dotted 4px blue;
-    border-bottom: dotted 4px blue;
-    border-left: dotted 4px blue;
-    padding: 20px;
-
-   
-    
-   
-    
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  color: goldenrod;
+  font-family: monospace;
+  text-align: center;
+  border-right: dotted 4px blue;
+  border-top: dotted 4px blue;
+  border-bottom: dotted 4px blue;
+  border-left: dotted 4px blue;
+  padding: 20px;
 }
 
-.Argentum{
-    display:flex;
-    flex-direction: column;
-   
-    color: black;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   font-weight: bold;
-   border-right: dotted 4px blue;
-   border-top: dotted 4px blue;
-   border-bottom: dotted 4px blue;
-   border-left: dotted 4px blue;
-   background: linear-gradient(to right,blue,orange,violet);
-   width: 100%;
-   height: 600px;
+.Argentum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  border-right: dotted 4px black;
+  border-top: dotted 4px black;
+  border-bottom: dotted 4px black;
+  border-left: dotted 4px black;
+  background: -webkit-gradient(linear, left top, right top, from(blue), color-stop(orange), to(violet));
+  background: linear-gradient(to right, blue, orange, violet);
+  width: 100%;
+  height: 600px;
 }
-.posttt{
 
-    background-color:black;
-   
-    
+.posttt {
+  background-color: black;
 }
 
 .tablita {
-
-    color:brown;
-    background: radial-gradient(red,black,green);
-   
-    
+  color: brown;
+  background: radial-gradient(red, black, green);
 }
 
-
-.paginas{
-    display:flex;
-    flex-flow: row wrap;
-    flex-wrap: wrap;
-    align-items: stretch;
-    flex-direction: column;
-    color: black;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   text-align:center;
-   border-right: dotted 3px yellowgreen;
-   border-top: dotted 3px yellowgreen;
-   border-bottom: dotted 3px yellowgreen;
-   border-left: dotted 3px yellowgreen;
-   padding: 20px;
-}
-.parra{
-    display:flex;
-    flex-flow: row wrap;
-    flex-wrap: wrap;
-    align-items: stretch;
-    flex-direction: column;
-    color: black;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   text-align:center;
-   border-right: dotted 3px yellowgreen;
-   border-top: dotted 3px yellowgreen;
-   border-bottom: dotted 3px yellowgreen;
-   border-left: dotted 3px yellowgreen;
-   padding: 20px;
+.paginas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  border-right: dotted 3px yellowgreen;
+  border-top: dotted 3px yellowgreen;
+  border-bottom: dotted 3px yellowgreen;
+  border-left: dotted 3px yellowgreen;
+  padding: 20px;
 }
 
-.divertite{
-    display:flex;
-    flex-flow: row wrap;
-    flex-wrap: wrap;
-    align-items: stretch;
-    flex-direction: column;
-    color: green;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   text-align:center;
-   padding: 20px;
-   
+.parra {
+ 
+  color: black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+ 
+
 }
 
-
-td{
-    display:flex;
-    flex-flow: row wrap;
-    flex-wrap: wrap;
-    align-items: stretch;
-    flex-direction: column;
-    color: blue;
-    display: flex;
-    flex-wrap: wrap;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   font-weight: bold;
-   padding: 20px;
-   
+.divertite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  color: green;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 20px;
 }
 
-   
-
-
+td {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  padding: 20px;
+}
 
 th {
-    color: cadetblue;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:medium;
-    padding: 20px;
+  color: cadetblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+  padding: 20px;
+}
+.nuevo {
+  color:darkgoldenrod ;
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  text-align: center;
+  
 }
 
 .Online {
-    background-color:black;
-    color: darkred;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    border-right: dotted 4px blanchedalmond;
-    border-top: dotted 4px blanchedalmond;
-    border-bottom: dotted 4px blanchedalmond;
-    border-left: dotted 4px blanchedalmond;
-    padding: 20px;
-
+  background-color: black;
+  color: darkred;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  border-right: dotted 4px blanchedalmond;
+  border-top: dotted 4px blanchedalmond;
+  border-bottom: dotted 4px blanchedalmond;
+  border-left: dotted 4px blanchedalmond;
+  padding: 20px;
 }
 
-.parrafo{
-    color: darkolivegreen;
-    background-color:black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    font-style:italic ;
-    font-weight: bold;
-    text-align: center;
-    padding: 20px;
+.parrafo {
+  color:darkgoldenrod;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
 }
-
-
+/*# sourceMappingURL=style.css.map */
