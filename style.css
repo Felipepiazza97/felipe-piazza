@@ -2,14 +2,21 @@
 
 
 .Aventura {
-  color: goldenrod;
+  color: black;
   font-family: monospace;
   text-align: center;
   padding: 20px;
 }
 
+.aventuraa {
+  color: darkgoldenrod;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  
+}
+
 .parra {
-  color: goldenrod;
+  color: black;
   text-align: center;
 }
 
@@ -24,17 +31,72 @@
 .descargarr {
   display:flex;
   justify-content:space-between;
+  -webkit-box-orient: horizontal;
 }
+
 .facebook {
   display:flex;
   justify-content:space-between;
-}
-.razas {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+    -webkit-box-orient: horizontal;
 }
 
+.razass {
+  color: darkorange;
+  
+  text-align: center;
+  background: black;
+  
+}
+.razass {
+  color: darkorange;
+  
+  text-align: center;
+  
+  
+}
+
+.contacto {
+  color: darkorange;
+  
+  text-align: center;
+  background: black;
+  
+}
+.contactoo {
+  color: darkorange;
+  
+  text-align: center;
+  
+  
+}
+.ayuda {
+  color: darkorange;
+  
+  text-align: center;
+  background: black;
+  
+}
+.ayudaa {
+  color: darkorange;
+  
+  text-align: center;
+  
+  
+}
+.año {
+  color: darkorange;
+  
+  text-align: center;
+  background: black;
+  
+}
+.añoo {
+  color: darkorange;
+  
+  text-align: center;
+  
+  
+}
 header,
 footer,
 aside,
@@ -44,22 +106,26 @@ nav {
 }
 
 header,
-nav {
-  background-color: darkolivegreen;
+nav
+body {
+  background-color: brown;
 }
 
+.je {
+  background-color: black;
+}
 .footer {
-  background: radial-gradient(red, yellow, black);
+  background: brown;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 120;
+
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
 .foot {
-  background: radial-gradient(red, yellow, black);
+  background: grey;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,8 +135,18 @@ nav {
 }
 
 .footerr {
-  width: 50%;
-  text-align: center;
+  display: flex;
+ 
+
+  width: 110%;
+  
+}
+.footerrr {
+  display: flex;
+ 
+
+  width: 7%;
+  
 }
 
 .fut {
@@ -127,10 +203,8 @@ header {
   color: goldenrod;
   font-family: monospace;
   text-align: center;
-  border-right: dotted 4px blue;
-  border-top: dotted 4px blue;
-  border-bottom: dotted 4px blue;
-  border-left: dotted 4px blue;
+  
+
   padding: 20px;
 }
 
@@ -149,8 +223,8 @@ header {
   border-top: dotted 4px black;
   border-bottom: dotted 4px black;
   border-left: dotted 4px black;
-  background: -webkit-gradient(linear, left top, right top, from(blue), color-stop(orange), to(violet));
-  background: linear-gradient(to right, blue, orange, violet);
+  background: brown;
+  background: brown;
   width: 100%;
   height: 600px;
 }
@@ -164,38 +238,28 @@ header {
   background: radial-gradient(red, black, green);
 }
 
-.paginas {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  color: black;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align: center;
-  border-right: dotted 3px yellowgreen;
-  border-top: dotted 3px yellowgreen;
-  border-bottom: dotted 3px yellowgreen;
-  border-left: dotted 3px yellowgreen;
-  padding: 20px;
-}
+
 
 .parra {
  
   color: black;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
  
+}
+
+.paginas {
+  
+  display:inline-block;
+ 
 
 }
+.razas {
+  color: black;
+  font-family: monospace;
+  text-align: center;
+  padding: 20px;
+}
+
 
 .divertite {
   display: -webkit-box;
@@ -277,5 +341,17 @@ th {
   font-weight: bold;
   text-align: center;
   padding: 20px;
+}
+.jee{
+
+
+  color: darkorange;
+
+ 
+ 
+}
+.desarollo {
+  color: black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
